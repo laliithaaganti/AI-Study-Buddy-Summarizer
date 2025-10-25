@@ -1,0 +1,12 @@
+# Python Environment and Cache
+venv/
+*.pyc
+__pycache__/
+
+# Streamlit Cache
+.streamlit/
+
+# Deep Learning Files (CRITICAL: Ignores the huge downloaded model weights)
+# Hugging Face models are saved here by default
+# If using your user home directory, this prevents accidental commits
+.cache/
